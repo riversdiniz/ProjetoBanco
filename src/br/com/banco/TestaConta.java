@@ -21,9 +21,9 @@ public class TestaConta {
         contaInvestimento.cliente.nome = "Ciclano";
         contaInvestimento.cliente.idade = 45;
 
-        System.out.println("Número da Conta " + contaCorrente.numero);
-        System.out.println("Saldo da Conta " + contaCorrente.saldo);
-        System.out.println("Nome completo do Cliente " + contaCorrente.cliente.nome);
-        System.out.println("Idade do Cliente " + contaCorrente.cliente.idade);
+        System.out.println("Número da Conta C/C: " + contaCorrente.numero);
+        System.out.println("Saldo da Conta R$: " + contaCorrente.saldo);
+        System.out.println("Nome completo do Cliente: " + contaCorrente.cliente.nome);
+        System.out.println("Idade do Cliente: " + contaCorrente.cliente.idade);
     }
 }
