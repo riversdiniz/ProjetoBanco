@@ -6,7 +6,16 @@ public class Conta {
     private double saldo;
 
     public Conta(){
-        
+
+    }
+
+    public Conta(int numero){
+        this.numero =  numero;
+        this.saldo = 0;
+    }
+
+    public Conta(double saldo){
+        this.saldo =  saldo;
     }
 
     public Conta(int numero, double saldo){
