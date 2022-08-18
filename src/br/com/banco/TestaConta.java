@@ -8,7 +8,7 @@ public class TestaConta {
 
         contaCorrente.numero = 11;
         contaCorrente.saldo = 20.20;
-        contaCorrente.cliente.nome = "River";
+        contaCorrente.cliente.nome = "River Diniz";
         contaCorrente.cliente.idade = 35;
 
         contaPoupanca.numero = 22;
@@ -21,9 +21,9 @@ public class TestaConta {
         contaInvestimento.cliente.nome = "Ciclano";
         contaInvestimento.cliente.idade = 45;
 
-        System.out.println(contaCorrente.numero);
-        System.out.println(contaCorrente.saldo);
-        System.out.println(contaCorrente.cliente.nome);
-        System.out.println(contaCorrente.cliente.idade);
+        System.out.println("Número da Conta " + contaCorrente.numero);
+        System.out.println("Saldo da Conta " + contaCorrente.saldo);
+        System.out.println("Nome completo do Cliente " + contaCorrente.cliente.nome);
+        System.out.println("Idade do Cliente " + contaCorrente.cliente.idade);
     }
 }
