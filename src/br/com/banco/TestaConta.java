@@ -24,5 +24,6 @@ public class TestaConta {
         System.out.println(contaCorrente.numero);
         System.out.println(contaCorrente.saldo);
         System.out.println(contaCorrente.cliente.nome);
+        System.out.println(contaCorrente.cliente.idade);
     }
 }
