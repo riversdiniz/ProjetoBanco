@@ -8,11 +8,21 @@ public class TestaConta {
 
         contaCorrente.numero = 11;
         contaCorrente.saldo = 20.20;
+        contaCorrente.cliente.nome = "River";
+        contaCorrente.cliente.idade = 35;
 
         contaPoupanca.numero = 22;
         contaPoupanca.saldo = 30;
+        contaPoupanca.cliente.nome = "Fulano";
+        contaPoupanca.cliente.idade = 40;
 
         contaInvestimento.numero = 33;
         contaInvestimento.saldo = 40;
+        contaInvestimento.cliente.nome = "Ciclano";
+        contaInvestimento.cliente.idade = 45;
+
+        System.out.println(contaCorrente.numero);
+        System.out.println(contaCorrente.saldo);
+        System.out.println(contaCorrente.cliente.nome);
     }
 }
